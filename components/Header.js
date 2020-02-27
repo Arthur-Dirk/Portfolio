@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import faGem from '@fortawesome/fontawesome-free-regular/faGem'
+
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
